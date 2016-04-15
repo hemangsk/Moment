@@ -9,16 +9,16 @@ layout: default
         <div class="col-md-7">
           <div class="featured-post-title-container">
             <span class="featured-post-title">FEATURED POST</span>
-
+<hr width="100%" >
           </div>
 
 
       {% for post in site.posts  %}
       {% if post.featured == 'true' %}
 
-            <div class="card">
+            <div class="card medium">
               <div class="card-image">
-
+  <img src="/assets/{{post.image}}">
 
               </div>
               <div class="card-content">
@@ -52,11 +52,11 @@ layout: default
         <div class="col-md-7">
           <div class="featured-post-title-container">
             <span class="featured-post-title">{{ cat }}</span>
-
+            <hr width="100%" >
           </div>
-          <div class="post">
+          <div class="post-content-main">
 
-  {% for post in site.posts limit:2%}
+  {% for post in site.posts %}
 
   {% for post_cat in post.categories %}
   {% if post_cat == cat %}

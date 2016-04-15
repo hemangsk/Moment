@@ -1,6 +1,34 @@
 ---
 layout: default
 ---
+
+<section>
+
+<div class="post-page-title " style="  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/{{page.image}}') no-repeat top center fixed;">
+<div class="page-meta-content">
+  <div class="page-title">
+    {{page.title}}
+  </div>
+   <div class="page-author">
+     {{page.author}}
+   </div>
+   <div class="page-time">
+     {{ page.date | date: "%b %-d, %Y" }}
+   </div>
+</div>
+
+</div>
+<div class="container">
+  <div class="post-content">
+      {{ content }}
+  </div>
+
+</div>
+
+
+</section>
+
+<!--
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -12,4 +40,4 @@ layout: default
     {{ content }}
   </div>
 
-</article>
+</article>-->

@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "WELCOME TO JEKYLL!"
 date:   2016-04-15 13:51:43 +0530
-categories: ["Science", Information Tech]
+categories: ["Science", "Julab Gamun"]
 featured: 'true'
 image: sample.jpg
+author: 'Hemang Kumar'
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

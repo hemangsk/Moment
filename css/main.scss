@@ -12,17 +12,60 @@
 
 .description{
   font-family: "Lato";
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 1em;
   font-weight: 500;
   letter-spacing: 3px;
-  text-indent: 3px;
+  text-indent: 12px;
   text-align: center;
 }
 .featured-post{
   padding-top: 2em;
 }
+.post-header-image{
+  height:400px !important;
+  width: 100% !important;
+  filter: blur(30%);
+}
+.post-page-title{
+  background-size: cover !important;
+  height: 380px;
+  width: 100% !important;
+  margin: 0;
+  padding: 90px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Lato";
 
+
+}
+.post-page-title.page-meta-content{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.post-content{
+  padding-left:12%;
+  padding-right:12%;
+  align-items: center;
+  font-family: "PT Sans";
+  font-size: 22px;
+}
+.page-author{
+  font-size: 25px !important;
+  letter-spacing: 1px;
+  text-indent: 1px;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+
+.page-time{
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  text-indent: 1px;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
 .featured-post-title{
   background-color: crimson;
   padding: 1em;
@@ -34,22 +77,33 @@
   letter-spacing: 3px;
   text-indent: 3px;
 }
-.post{
+.post-content-main{
   display: flex;
+  overflow: hidden;
 }
 .featured-post-title-container{
   padding-bottom: 1.5em;
+}
+hr {
+    border: none !important;
+    height: 3px !important;
+    /* Set the hr color */
+    color: darkblue ; /* old IE */
+    background-color: darkblue !important; /* Modern Browsers */
 }
 .footer{
   background-color: black;
   color:white;
   font-family: "Lato" !important;
-  font-size: 14px;
+  font-size: 20px;
   position:relative;
  bottom:0;
  left:0;
  right:0;
- padding:1em;
+ padding:1.5em;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ text-indent: 1px;
 }
 img {
   vertical-align: middle
