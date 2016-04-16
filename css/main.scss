@@ -9,6 +9,17 @@
   font-weight: 700;
   text-align: center;
 }
+.nav-link{
+  transition: background-color .3s;
+  font-size: 0.9rem;
+  color: #fff;
+  font-family: "Lato";
+  letter-spacing: 0.2em;
+  text-indent: 0.2em;
+  display: inline-block;
+  padding: 0 15px;
+  cursor: pointer;
+}
 
 .description{
   font-family: "Lato";
@@ -99,7 +110,7 @@ hr {
   position:relative;
  bottom:0;
  left:0;
- right:0;
+ width: 100%;
  padding:1.5em;
  text-transform: uppercase;
  letter-spacing: 1px;

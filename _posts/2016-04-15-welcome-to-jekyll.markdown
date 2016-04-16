@@ -2,7 +2,7 @@
 layout: post
 title:  "WELCOME TO JEKYLL!"
 date:   2016-04-15 13:51:43 +0530
-categories: ["Science", "Julab Gamun"]
+categories: ["Science", "Sarcasm"]
 featured: 'true'
 image: sample.jpg
 author: 'Hemang Kumar'

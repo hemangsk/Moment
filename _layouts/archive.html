@@ -1,0 +1,38 @@
+---
+layout: page
+---
+
+<div class="container">
+<div class="row">
+
+
+{% for post in site.posts %}
+{% for cat in post.categories %}
+{% if cat == page.category %}
+
+
+<div class="col-md-4">
+
+
+  <center>
+  <div class="card small">
+    <div class="card-image">
+      <img src="/assets/{{post.image}}">
+    </div>
+    <div class="card-content">
+        <span class="card-title">{{post.title}}</span>
+
+    </div>
+    <div class="card-action">
+      <a href="{{post.url}}">READ MORE</a>
+    </div>
+  </div>
+
+</div>
+
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+</div>
+</div>

@@ -14,6 +14,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-category_list: ["Science", "Information Tech", "Economics", "Julab Gamun"]
+category_list: ["Science", "Information Tech", "Economics", "Sarcasm"]
 # Build settings
 markdown: kramdown

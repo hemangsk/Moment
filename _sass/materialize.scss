@@ -2517,7 +2517,9 @@ nav ul a {
   text-indent: 0.2em;
   display: inline-block;
   padding: 0 15px;
-  cursor: pointer
+  cursor: pointer;
+  text-transform: uppercase;
+font-weight: 600;
 }
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
   margin-top: -2px;

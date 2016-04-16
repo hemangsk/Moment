@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-04-15 13:51:43 +0530
-categories: ["Science"]
+categories: ["Science", "Sarcasm"]
 
 image: sample.jpg
 ---
