@@ -22,7 +22,16 @@ layout: default
   <div class="post-content">
       {{ content }}
   </div>
-
+  <div class="post-author">
+    {% if page.author %}
+    <div class="postedBy">
+      POSTED BY
+    </div>
+    <div class="postedByAuthor">
+      {{page.author}}
+    </div>
+ {% endif %}
+  </div>
 </div>
 
 

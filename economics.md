@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Economics
-permalink: /economics/
+permalink: /Economics/
 tagline: "Money matters."
 category: "Economics"
 ---

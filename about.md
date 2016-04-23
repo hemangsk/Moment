@@ -3,18 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-<h3>
-TIME</h3>
-<h4>The Jekyll theme for Newspapers,<br>Magazine, Blogs.<h4>
-<h5>
+<div class="about-title">MOMENT
+</div>
+<div class="about-tagline">Contemporary, courageous, liberal Jekyll theme<br>
+for newspapers, magazines and blogs.</div>
+
+<p>
+There is some thought out there you wish to pin,
 <br>
-There is some thought out there you wanna pen down,
+there is some idea driving crazy, you want something to jot it down,
 <br>
-There is some idea driving crazy, you want something to jot it down,
+there is a story to be told, or a prose to be sung,
 <br>
-There is a story to be told,
-<br>
-Or a prose to be sung,
-<br>
-TIME is now.
-</h5>
+the moment is now.
+</p>

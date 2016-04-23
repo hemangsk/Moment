@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: 'IT'
-permalink: /it/
+permalink: /IT/
 tagline: "Talk in binary."
-category: "Information Tech"
+category: "IT"
 ---
