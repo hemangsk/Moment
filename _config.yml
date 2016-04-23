@@ -11,9 +11,9 @@ author: 'Hemang Kumar'
 email: your-email@domain.com
 description: A JEKYLL THEME FOR MAGAZINES & NEWSPAPERS
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://hemangsk.github.io/Moment" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username:  hemangsk
 category_list: ["Science", "IT", "Economics", "Sarcasm"]
 # Build settings
 markdown: kramdown
