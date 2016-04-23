@@ -26,7 +26,7 @@ layout: default
                 <p>{{post.excerpt}}</p>
               </div>
               <div class="card-action">
-                <a href="{{post.url}}">READ MORE</a>
+                <a href="{{post.url | prepend:site.baseurl }}">READ MORE</a>
               </div>
             </div>
 
