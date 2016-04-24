@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Economics
-permalink: /Economics/
+title: World
+permalink: /World/
 tagline: "Money matters."
-category: "Economics"
+category: "World"
 ---

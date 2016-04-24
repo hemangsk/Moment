@@ -20,7 +20,37 @@
   padding: 0 15px;
   cursor: pointer;
 }
+.manual{
+  font-size: 16px;
+font-weight: 500;
+font-family: "Source Sans Pro";
+text-transform: uppercase;
+letter-spacing: 1px;
+}
 
+.manual-head{
+  font-size: 25px;
+
+font-weight: 900;
+}
+
+.manual-title{
+  font-family: "Source Sans Pro" !important;
+font-size: 20px !important;
+
+font-weight: 600 !important;
+}
+
+.manual-content{
+  font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 300;
+
+}
+
+code{
+  background-color: rgb(238, 238, 255);
+}
 .post-author{
   text-align: center;
 
